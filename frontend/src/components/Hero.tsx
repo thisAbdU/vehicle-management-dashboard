@@ -28,8 +28,8 @@ const Hero: FC = () => {
       ))}
       
       {/* Content */}
-      <div className="relative z-10 text-center">
-        <h1 className="text-5xl font-bold mb-4 text-gray-800">Find your dream Car</h1>
+      <div className="relative z-20 text-center pt-40">
+      <h1 className="text-5xl font-bold mb-8 text-gray-800" style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Find your dream Car</h1>
         <p className="text-xl mb-8 text-gray-600 max-w-2xl mx-auto">
           Discover a wide range of quality vehicles to suit your lifestyle and budget. 
           Your perfect ride is just a click away.

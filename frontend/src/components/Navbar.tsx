@@ -8,6 +8,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <img src="/img/mjv1_r1s3_141015.jpg" alt="logo" className="h-8 w-auto" />
+            <span className="ml-3 text-xl font-bold text-gray-800">CarConnect</span>
           </div>
           <div className="flex-1 flex justify-center">
             <div className="flex space-x-6">
