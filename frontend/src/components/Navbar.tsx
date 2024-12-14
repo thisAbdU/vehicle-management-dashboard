@@ -12,7 +12,7 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex justify-center">
             <div className="flex space-x-6">
-              {['Home', 'About Us', 'Contact', 'Listing'].map((item) => (
+              {['Home', 'Listing', 'About Us', 'Contact'].map((item) => (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase().replace(' ', '-')}`}
