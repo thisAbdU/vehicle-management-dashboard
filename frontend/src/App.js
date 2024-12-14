@@ -1,5 +1,6 @@
 import './App.css';
 import Hero from './components/Hero';
+import Listing from './components/Listing';
 import Navbar from './components/Navbar.tsx';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Hero></Hero>
+      <Listing></Listing>
     </div>
   );
 }
